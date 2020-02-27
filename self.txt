@@ -1,0 +1,270 @@
+自己的ftp
+8.8.8.2
+
+embedded.mobileprovision
+embedded.xml
+
+MacDown
+
+you-get 视频链接
+
+
+centOS
+root
+liuxing123456
+
+
+lipo -create /Users/mac/Downloads/Debug-iphoneos/Charts.framework/Charts /Users/mac/Downloads/Debug-iphonesimulator/Charts.framework/Charts -output /Users/mac/Downloads/Charts
+
+
+
+project_name=CarNews
+xcodebuild clean -project $project_name.xcodeproj -scheme $project_name -configuration Debug -quiet
+xcodebuild -project $project_name.xcodeproj -scheme $project_name archive -archivePath build/$project_name.xcarchive -configuration Debug -quiet
+xcodebuild -exportArchive -archivePath build/$project_name.xcarchive -exportPath build -exportOptionsPlist ExportOptions.plist -allowProvisioningUpdates
+
+
+centos重启命令：
+　　1、reboot   普通重启
+　　2、shutdown -r now 立刻重启(root用户使用)
+　　3、shutdown -r 10 过10分钟自动重启(root用户使用)
+　　4、shutdown -r 20:35 在时间为20:35时候重启(root用户使用)
+　　如果是通过shutdown命令设置重启的话，可以用shutdown -c命令取消重启
+centos关机命令：
+　　1、halt 立刻关机
+　　2、poweroff 立刻关机
+　　3、shutdown -h now 立刻关机(root用户使用)
+　　4、shutdown -h 10 10分钟后自动关机
+　　如果是通过shutdown命令设置关机的话，可以用shutdown -c命令取消重启
+
+
+wget http://nginx.org/download/nginx-1.16.0.tar.gz
+wget https://github.com/arut/nginx-rtmp-module/archive/master.zip
+tar -zxvf nginx-1.16.0.tar.gz
+unzip master.zip
+cd nginx-1.16.0
+./configure --with-http_ssl_module --add-module=../nginx-rtmp-module-master
+make
+make install
+sudo /usr/local/nginx/sbin/nginx
+sudo /usr/local/nginx/sbin/nginx -s stop
+sudo /usr/local/nginx/sbin/nginx
+
+
+ffmpeg -re -i /Users/mac/Desktop/demo/opening.mp4 -vcodec libx264 -acodec aac -strict -2 -f flv rtmp://localhost:1935/live/room
+
+http://localhost/live/movie.m3u8
+
+rtmp://192.168.101.109:1935/live/room
+
+
+
+mysql
+update user set authentication_string='' where user='root';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123';
+
+
+rtmp {
+	server {
+		listen 1935;
+		chunk_size 4000; 
+		application live {
+			live on;
+			record off;
+		}
+		application hls {
+			live on;
+			hls on;
+			hls_path /usr/local/var/www/hls;
+			hls_fragment 5s;
+		}  
+	}
+}
+
+
+cloudinary
+lish193@163.com
+Xa*1397410
+
+Honeyminer
+同上
+
+
+cd到~/Downloads目录，进行解压缩
+unzip 刚才下载的那个.crx -d liebao
+
+
+
+ftp
+192.168.90.105
+eatyeh
+eatyeh123
+
+
+
+苹果开发者p12证书密码
+beeshome123.
+
+
+upyunFTP
+v0.ftp.upyun.com
+beeshome/beeshomeimg
+beeshome123.
+
+
+GitHub
+LX193
+Xaf1397410
+
+
+友盟	
+lish193@163.com	
+xaf1397410
+
+
+高德	
+15580804804	
+xaf1397410
+
+
+极光	
+lish193@163.com
+Xaf13974107294
+
+
+mob	
+同友盟
+
+
+fir.com	
+同友盟
+
+
+pgyer.com
+同友盟
+
+
+appid	
+lish193@163.com	
+Xaf1397410
+
+
+facebook测试账号
+open_nlhqwrz_user@tfbnw.net
+123456abc
+
+
+Oracle
+lish193@163.com
+A158733s
+
+adobe
+lish193@163.com
+A158733s
+
+
+同花顺
+xaf13974107294
+A158733s
+
+
+WordPress
+lxdeblog
+xaf13974107294
+
+
+//ABCDEFGH IJKLMN OPQRST UVWXYZ
+
+
+*.DS_Store
+*.xcuserstate
+xcuserdata
+*.xcuserdatad
+xcuserdatad
+
+
+127.0.0.1:16823
+/autoproxy.pac
+/Users/liuxing/Downloads/proxy/abc.pac
+/Users/liuxing/Downloads/proxy/adc.pac
+
+
+xclient压缩密码
+xclient.info
+
+
+
+显示/隐藏文件
+defaults write com.apple.finder AppleShowAllFiles -bool YES 
+defaults write com.apple.finder AppleShowAllFiles -bool NO 
+
+
+查看pkg文件
+pkgutil --pkgs
+
+
+sudo killall -HUP mDNSResponder
+nslookup www.youtube.com 
+nslookup www.facebook.com
+
+
+
+ditto -ck --sequesterRsrc --keepParent `ls -1 -d -t ~/Library/Developer/Xcode/DerivedData/mss-ehfwnynwedfhekeorsjwvkclsceu/Build/Products/Debug-iphonesimulator/mss.app | head -n 1` /Users/liuxing/Desktop/mss.zip
+
+ios-sim launch /Users/liuxing/Desktop/mss.app
+
+
+Tomcat
+cd /Users/liuxing/Library/Tomcat/bin
+chmod u+x *.sh
+./startup.sh
+./shutdown.sh
+
+
+nginx
+brew services start nginx
+brew services stop nginx
+brew services restart nginx
+
+
+apache
+sudo apachectl start
+sudo apachectl restart
+sudo apachectl stop
+
+
+
+sudo vi /etc/apache2/httpd.conf
+
+
+brew install carthage
+git clone --recursive https://github.com/fancymax/12306ForMac.git 
+cd 12306ForMac
+carthage update --platform macOS
+
+
+
+https://mobile.12306.cn
+
+
+
+https://kyfw.12306.cn/passport/captcha/captcha-image?login_site=E&module=login&rand=sjrand
+https://kyfw.12306.cn/otn/resources/js/framework/station_name.js
+https://kyfw.12306.cn/otn/leftTicket/queryA?leftTicketDTO.train_date=2018-10-30&leftTicketDTO.from_station=SZQ&leftTicketDTO.to_station=GZQ&purpose_codes=ADULT
+
+
+Web服务器：apache、tomcat、nginx、lighttpd
+监控：nagios、ganglia
+自动部署：ansible、sshpt
+配置管理：puppet、cfengine
+负载均衡：lvs、haproxy
+传输工具：scribe、flume
+备份工具：rsync、wget
+分布式平台：hdfs、mapreduce、spark、storm、hive
+分布式数据库：hbase、cassandra、redis、MongoDB
+容器：lxc、docker
+虚拟化：openstack、xen、kvm
+安全：kerberos、selinux、acl、iptables
+问题追查：netstat、top、tcpdump、last
+运维：MRTG、Nagios、Cacti、Zabbix、Zenoss、OpenNMS、Ganglia  OSSIM
+        
