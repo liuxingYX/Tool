@@ -1,6 +1,11 @@
 自己的ftp
 8.8.8.2
 
+Command + R
+ln -sv /Users/mac/.rvm/gems/ruby-2.6.3/bin/fir /usr/bin
+csrutil disable
+csrutil enable
+
 embedded.mobileprovision
 embedded.xml
 
@@ -9,9 +14,41 @@ MacDown
 you-get 视频链接
 
 
-centOS
-root
+征信中心
+liuxing_yx
 liuxing123456
+
+utools
+liuxing_yx
+
+Twitter
+8613620950501
+xaf1397410
+
+
+http://www.kuhuyun.com
+liuxingIOS
+lish193@163.com
+Xaf13974107294
+
+https://www.vultr.com
+lish193@163.com
+Xaf1397410
+
+
+
+#查看运行状态  
+/serverspeeder/bin/serverSpeeder.sh status  
+  
+#启动锐速  
+/serverspeeder/bin/serverSpeeder.sh start  
+  
+#停止锐速  
+/serverspeeder/bin/serverSpeeder.sh stop  
+  
+#重启锐速  
+/serverspeeder/bin/serverSpeeder.sh restart  
+
 
 
 lipo -create /Users/mac/Downloads/Debug-iphoneos/Charts.framework/Charts /Users/mac/Downloads/Debug-iphonesimulator/Charts.framework/Charts -output /Users/mac/Downloads/Charts
@@ -148,10 +185,6 @@ appid
 lish193@163.com	
 Xaf1397410
 
-
-facebook测试账号
-open_nlhqwrz_user@tfbnw.net
-123456abc
 
 
 Oracle

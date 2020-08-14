@@ -1,0 +1,12 @@
+2020-07-21 13:37:25.485 ShipIt[21921:192643] Beginning installation
+2020-07-21 13:37:26.016 ShipIt[21921:192642] Moved bundle from file:///Applications/BaiduNetdisk_mac.app/ to file:///var/folders/_n/0znwy6gx3jvd_h14y0qfyxwc0000gn/T/com.baidu.BaiduNetdisk-mac.ShipIt.1B7H4yyL/BaiduNetdisk_mac.app
+2020-07-21 13:37:26.017 ShipIt[21921:192642] Moved bundle from file:///var/folders/_n/0znwy6gx3jvd_h14y0qfyxwc0000gn/T/com.baidu.BaiduNetdisk-mac.ShipIt.IIib1g3b/BaiduNetdisk_mac.app to file:///Applications/BaiduNetdisk_mac.app/
+2020-07-21 13:37:26.152 ShipIt[21921:192642] Couldn't remove owned bundle at location file:///var/folders/_n/0znwy6gx3jvd_h14y0qfyxwc0000gn/T/com.baidu.BaiduNetdisk-mac.ShipIt.IIib1g3b/BaiduNetdisk_mac.app, error NSError { domain: NSCocoaErrorDomain, code: 4, description: "“BaiduNetdisk_mac.app” couldn’t be removed.", failureReason: "The file doesn’t exist.", underlying error: NSError { domain: NSPOSIXErrorDomain, code: 2, description: "The operation couldn’t be completed. No such file or directory" }, userInfo: {
+    NSFilePath = "/var/folders/_n/0znwy6gx3jvd_h14y0qfyxwc0000gn/T/com.baidu.BaiduNetdisk-mac.ShipIt.IIib1g3b/BaiduNetdisk_mac.app";
+    NSUserStringVariant =     (
+        Remove
+    );
+} }
+2020-07-21 13:37:26.220 ShipIt[21921:192642] Installation completed successfully
+2020-07-21 13:37:26.275 ShipIt[21921:192643] Application launched at file:///Applications/BaiduNetdisk_mac.app/
+2020-07-21 13:37:26.275 ShipIt[21921:192643] ShipIt quitting
